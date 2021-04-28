@@ -1,0 +1,22 @@
+// partial sass files
+/* Universal Selector -> a global reset of sorts*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* forcing inheritance */
+  box-sizing: inherit;
+}
+
+/* set root font size for rem as 10 px */
+/* can use for responsve design, makes resizing font easier */
+/* default is 16 px */
+html {
+  // defines 1 rem:
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
